@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 8002",
+    "build": "vite build",
+    "preview": "vite preview --port 8002"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.19",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^4.5.0",
+    "svelte-dnd-action": "^0.9.51",
+    "uuid": "^10.0.0"
+  }
+}
